@@ -13,3 +13,5 @@ for row in range(1,10):
 		print(row,"*",col,"=",row*col,end="\t")
 	print()
 
+if 1 > 2:
+   print("不存在的")
