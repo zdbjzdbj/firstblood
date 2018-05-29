@@ -7,3 +7,9 @@ for i in range(1,101):
 
 print(sum)
 
+
+for row in range(1,10):
+	for col in range(1，row+1):
+		print(row,"*",col,"=",row*col,end="\t")
+	print()
+
